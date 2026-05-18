@@ -128,7 +128,11 @@ function EisenhowerGraph() {
   );
 }
 
-function AboutPage5() {
+function AboutPage
+  
+  
+  
+  () {
   return (
     <div style={S.page}>
 
@@ -319,4 +323,4 @@ function AboutPage5() {
   );
 }
 
-export default AboutPage5;
+export default AboutPage;
