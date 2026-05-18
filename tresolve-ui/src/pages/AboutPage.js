@@ -42,7 +42,7 @@ const PILLARS = [
 ];
 
 const S = {
-  page:        { fontFamily: "'Plus Jakarta Sans', sans-serif", color: '#f8f8fb', display: 'grid', gap: '24px' },
+  page:        { fontFamily: "'Plus Jakarta Sans', sans-serif", color: '#f8f8fb', display: 'grid', gap: '24px', padding: 'clamp(16px, 3vw, 36px)', width: '100%', maxWidth: '1440px', margin: '0 auto' },
   hero:        { display: 'grid', gridTemplateColumns: 'minmax(0,1.7fr) minmax(260px,0.9fr)', gap: '24px', padding: '28px', background: 'linear-gradient(135deg,rgba(255,255,255,0.03),rgba(226,0,116,0.08)),linear-gradient(180deg,#181820,#121219)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: '24px', position: 'relative', overflow: 'hidden' },
   heroAccent:  { position: 'absolute', left: 0, top: 0, bottom: 0, width: '5px', background: 'linear-gradient(180deg,#ff4fac,#e20074)' },
   heroStat:    { padding: '22px', borderRadius: '18px', background: 'radial-gradient(circle at top right,rgba(255,255,255,0.12),transparent 30%),linear-gradient(160deg,rgba(226,0,116,0.24),rgba(10,10,16,0.28))', border: '1px solid rgba(255,255,255,0.1)', display: 'flex', flexDirection: 'column', justifyContent: 'center' },
